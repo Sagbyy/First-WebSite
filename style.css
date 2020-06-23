@@ -1,0 +1,310 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(39, 39, 39)
+}
+
+/* HEADER */
+
+    /* NAVBAR */
+
+        #navbar
+        {
+            text-align: center;
+            height: 100px;
+            background-color: rgb(20, 20, 20);
+            overflow: hidden;
+            box-shadow: inset 0em 0.4em 0.5em rgb(0, 0, 0), 0 0 1em rgb(49, 49, 49);
+        }
+
+        #navbar ul
+        {
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            position: relative;
+            left: 20%;
+        }
+
+        #navbar ul li
+        {
+            display: inline-block;
+            margin: 40px 30px;
+            font-weight: 400;
+        }
+
+        #navbar a
+        {
+            text-decoration: none;
+            color: #FDCA00;
+            padding: 18px 34px;
+        }
+
+        #navbar a:hover
+        {
+            height: 100%;
+            background-color: #FDCA00;
+            color: white;
+            padding: 18px 33px;
+            transition: all 0.4s ease-out;
+            border: 0.5px solid white;
+        }
+    /* LOGO */
+
+        #logo img
+        {
+            width: 200px;
+            position: absolute;
+            margin: 20px 100px;
+        }
+
+/* MAIN IMAGE */
+
+        /* IMAGE */
+        #main
+        {
+            height: 750px;
+            background-image: url("./img/image\ esport.png");
+            overflow: hidden;
+        }
+
+        /* TEXT */
+
+        #main #text h1
+        {
+            margin: 220px 10px;
+            text-align: left;
+            text-transform: uppercase;
+            font-family: "Ruda", sans-serif;
+            font-size: 75px;
+            font-weight: 700;
+            color: white;
+            text-shadow: 0px 0px 20px rgb(0, 0, 0);
+        }
+
+        #main .text
+        {
+            color: rgb(230, 230, 230);
+            font-weight: bold;
+        }
+
+        /* BOUTTON */
+
+        #main .btn
+        {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: lighter;
+            text-transform: uppercase;
+            position: absolute;
+            right: 15%;
+            top: 45%;
+            border: 1px white solid;
+            padding: 20px 50px;
+            border-radius: 100px;
+            cursor: pointer;
+        }
+
+        #main .btn:hover
+        {
+            background-color: rgb(255, 255, 255, 0.70);
+            color: rgb(14, 14, 14);
+            border-color: rgb(14, 14, 14);
+            transition: all 0.5s ease-in-out;
+        }
+
+
+/* STEPS */
+
+    .steps
+    {
+        display: flex;
+        margin: 80px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .steps h1
+    {
+        font-family: "Roboto",sans-serif;
+        text-transform: uppercase;
+        color: white;
+        margin: 15px auto;
+    }
+
+    .steps hr
+    {
+        margin: 15px auto;
+        width: 450px;
+    }
+    
+    .steps p
+    {
+        font-family: "Roboto", sans-serif;
+        color: white;
+        margin: auto 15px;
+    }
+
+/* POSSIBILITE */
+
+.possibilite
+{
+    background-color: rgb(73, 73, 73);
+    padding: 60px;
+    display: flex;
+}
+
+.possibilite article
+{
+    width: 100%;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.possibilite article:first-child
+{
+    margin-right: 50px;
+}
+
+.overlay
+{
+    background-color: rgb(230, 230, 230, 0.85);
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    height: 430px;
+    width: 50%;
+}
+
+.possibilite hr
+{
+    margin: 20px 10px;
+}
+
+.possibilite a
+{
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    background-color: #FDCA00;
+    padding: 8px 25px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin: 50px auto auto 135px;
+}
+
+.possibilite a:hover
+{
+    background-color: #c88901;
+    transition: all 0.5s ease-in-out;
+}
+
+    /* TEXT */
+
+    .possibilite h3
+    {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        font-size: 2.6em;
+        color: rgb(20, 20, 20);
+        text-align: center;
+    }
+
+    .possibilite p
+
+    {
+        font-family: "Roboto", sans-serif;
+        padding: 25px auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+/* CONTACT */
+
+#contact
+{
+    background-color: white;
+    overflow: hidden;
+    height: 100%;
+}
+
+#contact h1
+{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.8em;
+    color: rgb(26, 26, 26);
+    margin: 25px;
+}
+
+#contact hr 
+{
+    margin: auto 500px;
+    border: 1px solid rgb(0, 204, 255);
+    box-shadow: 0 0 1px black;
+}
+
+#contact p
+{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 25px;
+    font-size: 17px;
+}
+
+/* FORMULAIRE */
+
+form
+{
+    text-align: center;
+    background-color: white;
+    padding: 35px;
+}
+
+label
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#email
+{
+    padding: 10px 45px 10px 10px;
+}
+
+input
+{
+    padding: 10px 20px;
+    margin: auto 30px auto 8px;
+}
+
+/* FOOTER */
+
+#footer
+{
+    padding: 30px;
+}
+
+#footer h2
+{
+    text-align: center;
+    font-family: "Suez One", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+#footer p
+{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
